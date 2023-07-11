@@ -26,7 +26,18 @@
 		},
 		{
 			"#": "2",
-			"$import": "templates/minoston_template.json#auto_off_timer_36000s"
+			"$import": "templates/minoston_template.json#auto_off_timer",
+			"valueSize": 2
+		},
+		{
+			"#": "4",
+			"$import": "templates/minoston_template.json#auto_on_timer",
+			"valueSize": 2
+		},
+		{
+			"#": "6",
+			"$import": "~/templates/master_template.json#state_after_power_failure_off_on_prev",
+			"defaultValue": 0
 		}
 	],
 	"compat": {
